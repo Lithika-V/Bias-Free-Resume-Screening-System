@@ -25,7 +25,7 @@ A machine learning-based application designed to minimize bias in the resume scr
 
 ## 📸 Output Example
 
-![Bias Mitigation Output](output/output.png)
+![Bias Mitigation Output](Output.jpeg)
 
 > *Replace `output/example_output.png` with your image file path.*
 
