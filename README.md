@@ -1,28 +1,29 @@
-# 📄 Bias-Free Resume Screening System
+# Resume Screening Tool (Data Science Focus)
 
-A machine learning-based application designed to minimize bias in the resume screening process. This system leverages anonymization and fair evaluation techniques to ensure that hiring decisions are based on skills and experience rather than gender, ethnicity, or other irrelevant attributes.
-
----
-
-## 🚀 Features
-
-- Resume anonymization (removes names, gendered pronouns, and other identifiers)
-- Skill extraction and job-fit scoring
-- Bias detection and mitigation via model auditing
-- Visual reports showing bias impact and fairness metrics
+This project is a machine learning-powered resume screening tool designed to automatically identify resumes that are relevant to Data Science roles. It uses natural language processing (NLP) techniques with spaCy and TF-IDF vectorization, combined with a Random Forest classifier.
 
 ---
 
-## 🛠️ Tech Stack
+## 💡 Features
 
-- Python
-- Scikit-learn / Fairlearn
-- SpaCy / NLTK
-- Flask / Streamlit (optional UI)
-- Matplotlib / Seaborn for visual output
+- Preprocesses resumes by lemmatizing and removing stopwords/punctuation.
+- Converts resume text into TF-IDF vectors.
+- Classifies resumes into **Data Science (Accepted)** or **Other (Rejected)**.
+- Screens multiple `.txt` resumes from a specified directory.
+- Displays clear results for each screened resume.
 
 ---
 
+## ⚙️ Requirements
+
+- Python 3.x
+- Required Python Libraries:
+  - `pandas`
+  - `scikit-learn`
+  - `spaCy`
+
+Install the spaCy English model using:
+---
 ## 📸 Output Example
 
 ![Bias Mitigation Output](Output.jpeg)
