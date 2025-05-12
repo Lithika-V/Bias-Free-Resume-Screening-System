@@ -21,8 +21,6 @@ This project is a machine learning-powered resume screening tool designed to aut
   - `pandas`
   - `scikit-learn`
   - `spaCy`
-
-Install the spaCy English model using:
 ---
 ## 📸 Output Example
 
